@@ -4,12 +4,11 @@
 
 [package]
 name = "di-exchange"
-version = "0.1.0"
+version = "0.1.1"
 description = "A crate for control and status messages, commonly used for exchanging distributed intelligence (DI) data."
 authors = ["Tom Burdick <tom@openenergysolutions.com>", "Cory Nguyen <cory.nguyen@openenergysolutions.com"]
 edition = "2021"
 license = "Apache-2.0"
-documentation = "https://docs.rs/di-exchange"
 homepage = "https://github.com/openenergysolutions/di-exchange"
 repository = "https://github.com/openenergysolutions/di-exchange"
 readme = "README.md"
