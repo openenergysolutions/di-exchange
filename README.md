@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2021 Open Energy Solutions Inc
+
+SPDX-License-Identifier: Apache-2.0
+-->
+
 # DI Exchange
 
 A crate for control and status messages, commonly used for exchanging distributed intelligence (DI) data. 
