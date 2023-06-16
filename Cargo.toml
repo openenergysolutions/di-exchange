@@ -1,0 +1,24 @@
+# SPDX-FileCopyrightText: 2021 Open Energy Solutions Inc
+#
+# SPDX-License-Identifier: Apache-2.0
+
+[package]
+name = "di-exchange"
+version = "0.1.0"
+description = "A crate for control and status messages, commonly used for exchanging distributed intelligence (DI) data."
+authors = ["Tom Burdick <tom@openenergysolutions.com>", "Cory Nguyen <cory.nguyen@openenergysolutions.com"]
+edition = "2021"
+license = "Apache-2.0"
+documentation = "https://docs.rs/di-exchange"
+homepage = "https://github.com/openenergysolutions/di-exchange"
+repository = "https://github.com/openenergysolutions/di-exchange"
+readme = "README.md"
+keywords = ["openfmb", "interoperability", "distributed-intelligence", "renewable-energy"]
+categories = ["distributed-automation"]
+
+[dependencies]
+prost = "0.10.4"
+
+[build-dependencies]
+prost-build = { version = "0.10.4" }
+
